@@ -7,7 +7,7 @@ How I like my Roam. Tiny tweaks to the [Roam Research Dark by Daniel](https://gi
 4. Apply the below in a code block (with language as CSS) to a Roam page called `roam/css`
 
 ```css
-h1.rm-title-display>span
+h1.rm-title-display > span
 {
   color: #328fe0 !important;
 }
@@ -35,5 +35,10 @@ h1.rm-title-display>span
 .roam-article > div:last-child {
   margin-top: 4em !important;
   border-top: 1px solid;
+}
+
+.roam-center > div#buffer {
+  bottom: 5px !important;
+  right: 5px !important;
 }
 ```
