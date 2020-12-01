@@ -17,7 +17,8 @@ h1.rm-title-display > span
 }
 
 /* hide bullets */
-.simple-bullet-outer.cursor-pointer {
+.simple-bullet-outer.cursor-pointer,
+.rm-bullet .rm-bullet__inner{
   opacity: 0;
   color: white !important;
 }
@@ -25,6 +26,10 @@ h1.rm-title-display > span
 .simple-bullet-outer.cursor-pointer:hover {
   opacity: 1;
   background-color: #3f87b3;
+}
+
+.controls {
+  flex: 0 0 23px;
 }
 
 /* layout stuff */
