@@ -33,10 +33,6 @@ h1.rm-title-display > span
 }
 
 /* layout stuff */
-.roam-article > div > .flex-v-box {
-  margin-left: -44px !important;
-}
-
 .roam-article > div:last-child {
   margin-top: 4em !important;
   border-top: 1px solid;
