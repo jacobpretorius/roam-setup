@@ -82,12 +82,6 @@ h3 textarea {
   margin-bottom: 10px;
 }
 
-/* Improve Checkbox alignment */
-label.check-container {
-  margin-bottom: 11px;
-  margin-right: 3px;
-}
-
 /* wide content layout */
 .roam-center div:first-child {
   padding-right: calc((100% - 900px) / 2) !important;
