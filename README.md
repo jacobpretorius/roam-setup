@@ -71,6 +71,11 @@ h3 textarea {
   color: color-heading-3 !important;
 }
 
+.mobile > .roam-app > .flex-h-box > .roam-main > .roam-body-main > .rm-article-wrapper {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
 /* ### UI Changes ###*/
 /* less space below page heading */
 .roam-body .roam-app .roam-main .roam-article .rm-title-display {
@@ -283,23 +288,6 @@ rect[stroke*="red"] {
   fill: rgba(10, 10, 10, 0.2) !important;
 }
 
-svg[style*="lightgrey"] {
-  border: none !important;
-  border-radius: 5px;
-  background-color: rgba(10, 10, 10, 0.2) !important;
-
-  .rm-block-input {
-    margin: 0;
-    padding-left: 0.5em;
-    min-width: 100%;
-  }
-
-  line {
-    stroke: #a7b6c2 !important;
-    stroke-width: 3.5px !important;
-  }
-}
-
 svg .rm-page-ref-link-color {
   color: rgba(255, 152, 0, 1.0);
 }
@@ -419,12 +407,6 @@ code {
 }
 .bp3-html-select > select {
   color: #fff
-}
-.bp3-button {
-  background-color: rgba(56, 64, 71, 0.8) !important;
-  background-image: none !important;
-  color: #d9d9d9 !important;
-  padding: 0;
 }
 .bp3-button.bp3-minimal:hover {
   background-color: rgba(56, 64, 71, .4) !important;
